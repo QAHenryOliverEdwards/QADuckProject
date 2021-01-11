@@ -87,8 +87,4 @@ public class Duck {
 
     }
 
-    public void printStuff() {
-        System.out.println("Stuff");
-    }
-
 }
