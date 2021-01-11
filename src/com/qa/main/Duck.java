@@ -66,9 +66,11 @@ public class Duck {
 
     public void sortAllDucks() {
         List<String> nameList = new ArrayList<>();
+
         for (Duck duck : this.myDuckList) {
             nameList.add(duck.name);
         }
+
         Collections.sort(nameList);
 
         List<Duck> myDuckList2 = new ArrayList<>();
@@ -83,6 +85,10 @@ public class Duck {
 
         myDuckList = myDuckList2;
 
+    }
+
+    public void printStuff() {
+        System.out.println("Stuff");
     }
 
 }

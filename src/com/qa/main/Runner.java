@@ -40,5 +40,7 @@ public class Runner {
         myDuckList.sortAllDucks();
         myDuckList.printAllList();
 
+        myDuckList.printStuff();
+
     }
 }
