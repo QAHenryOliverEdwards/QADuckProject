@@ -19,7 +19,7 @@ public class Runner {
         redheadDuck.setName("Redhead Duck");
         redheadDuck.setAMallard(false);
 
-        Duck myDuckList =  new Duck();
+        DuckList myDuckList =  new DuckList();
         myDuckList.addToDuckList(woodDuck);
         myDuckList.addToDuckList(mallard);
         myDuckList.addToDuckList(redheadDuck);
